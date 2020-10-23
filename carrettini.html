@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<meta http-equiv="cache-control" content="no-cache"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<title>Kamoe - Carrettini</title>
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
+
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+
+	<!--Collap-->
+	<link type="text/css" rel="stylesheet" href="css/collap.css" />
+
+	<!-- Owl Carousel -->
+	<link type="text/css" rel="stylesheet" href="css/owl.carousel.css" />
+	<link type="text/css" rel="stylesheet" href="css/owl.theme.default.css" />
+
+	<!-- Magnific Popup -->
+	<link type="text/css" rel="stylesheet" href="css/magnific-popup.css" />
+
+	<!-- Font Awesome Icon -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="icon" href="img/loghi/scaccia.png">
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+
+	
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+	<script type="text/javascript">
+
+		function modalPopcorn() {
+
+			$('#modalPopcorn').modal('show');
+		}
+
+		function modalZucchero() {
+
+			$('#modalZucchero').modal('show');
+		}
+	</script>
+</head>
+
+<body>
+
+	<!-- Modal Pop Corn-->
+	<div class="modal fade" id="modalPopcorn" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+		aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLongTitle">NOLEGGIO POPCORN</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+
+					<p> €50 con operatore che consegna e ritira (noleggio 3H)
+					</p>
+				</div>
+				<div class="modal-footer">
+
+					<!--<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>-->
+					<button type="button" class="btn btn-primary" data-dismiss="modal">Chiudi</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal Zucchero-->
+	<div class="modal fade" id="modalZucchero" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+		aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLongTitle">NOLEGGIO ZUCCHERO FILATO</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+
+					<p> €50 con operatore che consegna e ritira (noleggio 3H)
+					</p>
+				</div>
+				<div class="modal-footer">
+
+					<!--<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>-->
+					<button type="button" class="btn btn-primary" data-dismiss="modal">Chiudi</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Header -->
+	<header id="carret">
+
+		<!-- Nav -->
+		<nav id="nav" class="navbar">
+			<div class="container">
+
+				<div class="navbar-header">
+					<!-- Logo -->
+					<div class="navbar-brand">
+						<a href="index">
+							<img class="logo" src="img/loghi/logo-noarchi.png" alt="logo">
+						</a>
+					</div>
+					<!-- /Logo -->
+
+					<!-- Collapse nav button -->
+					<div class="nav-collapse">
+						<span></span>
+					</div>
+					<!-- /Collapse nav button -->
+				</div>
+
+				<!--  Main navigation  -->
+				<ul class="main-nav nav navbar-nav navbar-right">
+					<li><a href="index">Home</a></li>
+					<li class="has-dropdown"><a>Animazione</a>
+						<ul class="dropdown">
+							<li><a href="bambini">Bambini</a></li>
+							<li><a href="adulti">Adulti</a></li>
+							<li>Feste di piazza</li>
+							<li>Matrimoni</li>
+
+						</ul>
+					</li>
+					<li class="has-dropdown"><a>Allestimenti</a>
+						<ul class="dropdown">
+							<li>Sweet table</li>
+							<li><a href="palloncini">Palloncini</a></li>
+							<li>Mascotte e travestimenti</li>
+						</ul>
+					</li>
+					<li><a href="/feste/matrimoni">Wedding</a></li>
+					<li class="has-dropdown"><a>Altri servizi</a>
+						<ul class="dropdown">
+							<li><a href="spettacoli">Spettacoli</a></li>
+							<li><a href="carrettini">Carrettini</a></li>
+							<li class="has-dropdown"><a>Gonfiabili</a>
+								<ul class="dropdown">
+									<li><a href="/gonfiabili/gonfiabili-giostre">Giostre</a></li>
+									<li><a href="/gonfiabili/gonfiabili-sportivi">Sportivi</a></li>
+									<li><a href="/gonfiabili/gonfiabili-esterni">Scenografie</a></li>
+								</ul>
+							</li>
+							<li>Effetti speciali</li>
+							<li>Mascotte e travestimenti</li>
+						</ul>
+					</li>
+					<li><a href="#">I nostri partner</a></li>
+					<li><a href="chisiamo">Chi siamo</a></li>
+					<li><a href="lavoraconnoi">Lavora con noi</a></li>
+					<li><a href="index#contact">Contatti</a></li>
+					<!--<li><a href="#portfolio">La nostra gallery</a></li>-->
+
+
+
+				</ul>
+				<!-- /Main navigation -->
+
+			</div>
+		</nav>
+		<!-- /Nav -->
+
+		<!-- header wrapper -->
+		<div class="header-wrapper sm-padding bg-grey">
+			<div class="container">
+				<h2>Carrettini</h2>
+				<ul class="breadcrumb">
+					<li class="breadcrumb-item"><a href="index">Home</a></li>
+					<li class="breadcrumb-item"><a href="carrettini">Carrettini</a></li>
+					<!--  index.html#blog  <li class="breadcrumb-item active">Single Post</li>-->
+				</ul>
+			</div>
+		</div>
+		<!-- /header wrapper -->
+
+	</header>
+	<!-- /Header -->
+
+	<!-- Blog -->
+	<div id="carrettini" class="section md-padding">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Main -->
+				<main id="main" class="col-md-9">
+					<div class="blog-mio">
+						<!--<div class="blog-img">
+							<img class="img-responsive" src="./img/blog-post.jpg" alt="">
+						</div>-->
+
+
+
+						<div class="blog-content" id="comunioni">
+							<!--<ul class="blog-meta">
+								<li><i class="fa fa-user"></i>John doe</li>
+								<li><i class="fa fa-clock-o"></i>18 Oct</li>
+								<li><i class="fa fa-comments"></i>57</li>
+							</ul>-->
+							<div class="section-header text-center">
+								<h2>I nostri carrettini per allestimenti</h2>
+							</div>
+
+
+							<p class="text-center">Abbiamo a disposizione diverse attrazioni coinvolgenti per tutte le
+								età!
+								Carrettini dello zucchero filato, PopCorn, gelati .. e tanto altro!
+							</p>
+							<p class="text-center"><a href="index#contact">Contattaci</a> subito per avere un
+								preventivo.</p>
+
+							<div class="row">
+								<div class="section-header text-center">
+									<h2>Carrettini</h2>
+								</div>
+								<!-- Work -->
+								<div class="col-md-4 col-xs-6 work">
+									<img class="img-responsive" src="./img/carrettini/popcorn.png" alt="">
+									<div class="overlay"></div>
+									<div class="work-content">
+										<span>Categoria</span>
+										<h3>Carrettino PopCorn</h3>
+										<div class="work-link">
+											<a href="#" onclick="modalPopcorn()"><i class="fa fa-search"></i></a>
+										</div>
+									</div>
+								</div>
+								<!-- /Work -->
+
+
+								<div class="col-md-4 col-xs-6 work">
+									<img class="img-responsive" src="./img/carrettini/zucchero.png" alt="">
+									<div class="overlay"></div>
+									<div class="work-content">
+										<span>Categoria</span>
+										<h3>Zucchero filato</h3>
+										<div class="work-link">
+											<a href="#" onclick="modalZucchero()"><i class="fa fa-search"></i></a>
+										</div>
+									</div>
+								</div>
+								<!-- /Work -->
+
+								<!-- Work -->
+								<div class="col-md-4 col-xs-6 work">
+									<img class="img-responsive" src="./img/carrettini/crepes.png" alt="">
+									<div class="overlay"></div>
+									<div class="work-content">
+										<span>Categoria</span>
+										<h3>Crepes</h3>
+										<div class="work-link">
+											
+											<a class="lightbox" href="./img/carrettini/crepes.png"><i
+													class="fa fa-search"></i></a>
+										</div>
+									</div>
+								</div>
+								<!-- /Work -->
+
+
+								<!-- Work -->
+								<div class="col-md-4 col-xs-6 work">
+									<img class="img-responsive" src="./img/carrettini/gelati.png" alt="">
+									<div class="overlay"></div>
+									<div class="work-content">
+										<span>Categoria</span>
+										<h3>Gelati</h3>
+										<div class="work-link">
+											
+											<a class="lightbox" href="./img/carrettini/gelati.png"><i
+													class="fa fa-search"></i></a>
+										</div>
+									</div>
+								</div>
+								<!-- /Work -->
+
+
+								<!-- Work -->
+								<div class="col-md-4 col-xs-6 work">
+									<img class="img-responsive" src="./img/carrettini/graffette.png" alt="">
+									<div class="overlay"></div>
+									<div class="work-content">
+										<span>Categoria</span>
+										<h3>Graffette</h3>
+										<div class="work-link">
+											
+											<a class="lightbox" href="./img/carrettini/graffette.png"><i
+													class="fa fa-search"></i></a>
+										</div>
+									</div>
+								</div>
+								<!-- /Work -->
+
+								<!-- Work -->
+								<div class="col-md-4 col-xs-6 work">
+									<img class="img-responsive" src="./img/carrettini/granite.png" alt="">
+									<div class="overlay"></div>
+									<div class="work-content">
+										<span>Categoria</span>
+										<h3>Granite</h3>
+										<div class="work-link">
+											
+											<a class="lightbox" href="./img/carrettini/granite.png"><i
+													class="fa fa-search"></i></a>
+										</div>
+									</div>
+								</div>
+								<!-- /Work -->
+
+
+								<!-- Work -->
+								<div class="col-md-4 col-xs-6 work">
+									<img class="img-responsive" src="./img/carrettini/hotdog.png" alt="">
+									<div class="overlay"></div>
+									<div class="work-content">
+										<span>Categoria</span>
+										<h3>Hotodog</h3>
+										<div class="work-link">
+											
+											<a class="lightbox" href="./img/carrettini/hotdog.png"><i
+													class="fa fa-search"></i></a>
+										</div>
+									</div>
+								</div>
+								<!-- /Work -->
+
+								<!-- Work -->
+								<div class="col-md-4 col-xs-6 work">
+									<img class="img-responsive" src="./img/carrettini/caramellata.png" alt="">
+									<div class="overlay"></div>
+									<div class="work-content">
+										<span>Categoria</span>
+										<h3>Castagne</h3>
+										<div class="work-link">
+											
+											<a class="lightbox" href="./img/carrettini/caramellata.png"><i
+													class="fa fa-search"></i></a>
+										</div>
+									</div>
+								</div>
+								<!-- /Work -->
+
+								<!-- Work -->
+								<div class="col-md-4 col-xs-6 work">
+									<img class="img-responsive" src="./img/carrettini/cioccolata.png" alt="">
+									<div class="overlay"></div>
+									<div class="work-content">
+										<span>Categoria</span>
+										<h3>Noccioline</h3>
+										<div class="work-link">
+											
+											<a class="lightbox" href="./img/carrettini/cioccolata.png"><i
+													class="fa fa-search"></i></a>
+										</div>
+									</div>
+								</div>
+								<!-- /Work -->
+
+
+
+								<!-- Work -->
+								<div class="col-md-4 col-xs-6 work">
+									<img class="img-responsive" src="./img/carrettini/fontana.png" alt="">
+									<div class="overlay"></div>
+									<div class="work-content">
+										<span>Categoria</span>
+										<h3>Fontana</h3>
+										<div class="work-link">
+											<a class="lightbox" href="./img/carrettini/fontana.png"><i
+													class="fa fa-search"></i></a>
+										</div>
+									</div>
+								</div>
+								<!-- /Work -->
+
+							</div>
+
+							<div class="row">
+								<div class="section-header text-center">
+									<h1 style="color: darkmagenta">CARRETTINI GRANDI EVENTI</h1>
+								</div>
+							</div>
+
+
+							<div class="row">
+
+
+
+								<div class="row" style="border-bottom: 10px dotted blue;">
+
+									<!-- Work -->
+									<div class="col-md-6 col-xs-6 work">
+										<img class="img-responsive" src="./img/carrettini/macchina1.jpeg" alt="">
+
+									</div>
+									<!-- /Work -->
+
+									<div class="col-md-6 col-xs-6 work">
+										<p class="black-text-splatch">CARRETTINO 500 WEDDING<p
+												class="black-text-splatch-small"></p>
+										</p>
+
+									</div>
+
+
+									<div class="col-md-6 col-xs-6 work">
+										<div class="col-md-3">
+											<img class="img-responsive" src="./img/icons/money.png" alt="">
+										</div>
+										<div class="col-md-6">
+											<p class="black-text-splatch-small">PREZZO NOLEGGIO: <br>€150 CON OPERATORE
+												CHE
+												CONSEGNA E RITIRA (NOLEGGIO 3H) </p>
+										</div>
+									</div>
+
+								</div>
+
+								<div class="row" style="border-bottom: 10px dotted blue;">
+
+									<!-- Work -->
+									<div class="col-md-6 col-xs-6 work">
+										<img class="img-responsive" src="./img/carrettini/macchina2.jpeg" alt="">
+
+									</div>
+									<!-- /Work -->
+
+									<div class="col-md-6 col-xs-6 work">
+										<p class="black-text-splatch">CARRETTINO 500 NAPOLI<p
+												class="black-text-splatch-small"></p>
+										</p>
+
+									</div>
+
+
+									<div class="col-md-6 col-xs-6 work">
+										<div class="col-md-3">
+											<img class="img-responsive" src="./img/icons/money.png" alt="">
+										</div>
+										<div class="col-md-6">
+											<p class="black-text-splatch-small">PREZZO NOLEGGIO: <br>€150 CON OPERATORE
+												CHE
+												CONSEGNA E RITIRA (NOLEGGIO 3H) </p>
+										</div>
+									</div>
+
+								</div>
+
+								<div class="row" style="border-bottom: 10px dotted blue;">
+
+									<!-- Work -->
+									<div class="col-md-6 col-xs-6 work">
+										<img class="img-responsive" src="./img/carrettini/apebar.jpg" alt="">
+
+									</div>
+									<!-- /Work -->
+
+									<div class="col-md-6 col-xs-6 work">
+										<p class="black-text-splatch">APE BAR<p class="black-text-splatch-small"></p>
+										</p>
+
+									</div>
+
+
+									<div class="col-md-6 col-xs-6 work">
+										<div class="col-md-3">
+											<img class="img-responsive" src="./img/icons/money.png" alt="">
+										</div>
+										<div class="col-md-6">
+											<p class="black-text-splatch-small">PREZZO NOLEGGIO: <br>€200 CON OPERATORE
+												CHE
+												CONSEGNA E RITIRA (NOLEGGIO 3H) </p>
+										</div>
+									</div>
+
+								</div>
+
+								<div class="row" style="border-bottom: 10px dotted blue;">
+
+									<!-- Work -->
+									<div class="col-md-6 col-xs-6 work">
+										<img class="img-responsive" src="./img/carrettini/apecar.jpeg" alt="">
+
+									</div>
+									<!-- /Work -->
+
+									<div class="col-md-6 col-xs-6 work">
+										<p class="black-text-splatch">APE LOVE<p class="black-text-splatch-small"></p>
+										</p>
+
+									</div>
+
+
+									<div class="col-md-6 col-xs-6 work">
+										<div class="col-md-3">
+											<img class="img-responsive" src="./img/icons/money.png" alt="">
+										</div>
+										<div class="col-md-6">
+											<p class="black-text-splatch-small">PREZZO NOLEGGIO: <br>€230 CON OPERATORE
+												CHE
+												CONSEGNA E RITIRA (NOLEGGIO 3H) </p>
+										</div>
+									</div>
+
+								</div>
+
+								<div class="row" style="border-bottom: 10px dotted blue;">
+
+									<!-- Work -->
+									<div class="col-md-6 col-xs-6 work">
+										<img class="img-responsive" src="./img/carrettini/pulmino.jpeg" alt="">
+
+									</div>
+									<!-- /Work -->
+
+									<div class="col-md-6 col-xs-6 work">
+										<p class="black-text-splatch">PULMINO<p class="black-text-splatch-small"></p>
+										</p>
+
+									</div>
+
+
+									<div class="col-md-6 col-xs-6 work">
+										<div class="col-md-3">
+											<img class="img-responsive" src="./img/icons/money.png" alt="">
+										</div>
+										<div class="col-md-6">
+											<p class="black-text-splatch-small">PREZZO NOLEGGIO: <br>€250 CON OPERATORE
+												CHE
+												CONSEGNA E RITIRA (NOLEGGIO 3H) </p>
+										</div>
+									</div>
+
+								</div>
+
+								<div class="row">
+									<div class="section-header text-center">
+										<h1 style="color: darkmagenta">CARRETTINI WEDDING</h1>
+									</div>
+								</div>
+
+								<div class="row" style="border-bottom: 10px dotted blue;">
+
+									<!-- Work -->
+									<div class="col-md-6 col-xs-6 work">
+										<img class="img-responsive" src="./img/carrettini/granitewe.jpg" alt="">
+
+									</div>
+									<!-- /Work -->
+
+									<div class="col-md-6 col-xs-6 work">
+										<p class="black-text-splatch">GRANITE SORRENTO<p
+												class="black-text-splatch-small"></p>
+										</p>
+
+									</div>
+
+
+									<div class="col-md-6 col-xs-6 work">
+										<div class="col-md-3">
+											<img class="img-responsive" src="./img/icons/money.png" alt="">
+										</div>
+										<div class="col-md-6">
+											<p class="black-text-splatch-small">PREZZO NOLEGGIO: <br>€300 CON OPERATORE
+												CHE
+												CONSEGNA E RITIRA (NOLEGGIO 3H) </p>
+										</div>
+									</div>
+
+								</div>
+
+								<div class="row" style="border-bottom: 10px dotted blue;">
+
+									<!-- Work -->
+									<div class="col-md-6 col-xs-6 work">
+										<img class="img-responsive" src="./img/carrettini/sorbetto.jpg" alt="">
+
+									</div>
+									<!-- /Work -->
+
+									<div class="col-md-6 col-xs-6 work">
+										<p class="black-text-splatch">SORBETTO VINTAGE<p
+												class="black-text-splatch-small"></p>
+										</p>
+
+									</div>
+
+
+									<div class="col-md-6 col-xs-6 work">
+										<div class="col-md-3">
+											<img class="img-responsive" src="./img/icons/money.png" alt="">
+										</div>
+										<div class="col-md-6">
+											<p class="black-text-splatch-small">PREZZO NOLEGGIO: <br>€300 CON OPERATORE
+												CHE
+												CONSEGNA E RITIRA (NOLEGGIO 3H) </p>
+										</div>
+									</div>
+
+								</div>
+
+								<div class="row" style="border-bottom: 10px dotted blue;">
+
+									<!-- Work -->
+									<div class="col-md-6 col-xs-6 work">
+										<img class="img-responsive" src="./img/carrettini/vintage2.png" alt="">
+
+									</div>
+									<!-- /Work -->
+
+									<div class="col-md-6 col-xs-6 work">
+										<p class="black-text-splatch">CARRETTINO BICI<p
+												class="black-text-splatch-small"></p>
+										</p>
+
+									</div>
+
+
+									<div class="col-md-6 col-xs-6 work">
+										<div class="col-md-3">
+											<img class="img-responsive" src="./img/icons/money.png" alt="">
+										</div>
+										<div class="col-md-6">
+											<p class="black-text-splatch-small">PREZZO NOLEGGIO: <br>€300 CON OPERATORE
+												CHE
+												CONSEGNA E RITIRA (NOLEGGIO 3H) </p>
+										</div>
+									</div>
+
+								</div>
+
+								<div class="row" style="border-bottom: 10px dotted blue;">
+
+									<!-- Work -->
+									<div class="col-md-6 col-xs-6 work">
+										<img class="img-responsive" src="./img/carrettini/gelatiw.png" alt="">
+
+									</div>
+									<!-- /Work -->
+
+									<div class="col-md-6 col-xs-6 work">
+										<p class="black-text-splatch">ICE CREAM<p
+												class="black-text-splatch-small"></p>
+										</p>
+
+									</div>
+
+
+									<div class="col-md-6 col-xs-6 work">
+										<div class="col-md-3">
+											<img class="img-responsive" src="./img/icons/money.png" alt="">
+										</div>
+										<div class="col-md-6">
+											<p class="black-text-splatch-small">PREZZO NOLEGGIO: <br>€300 CON OPERATORE
+												CHE
+												CONSEGNA E RITIRA (NOLEGGIO 3H) </p>
+										</div>
+									</div>
+
+								</div>
+
+								<div class="row" style="border-bottom: 10px dotted blue;">
+
+									<!-- Work -->
+									<div class="col-md-6 col-xs-6 work">
+										<img class="img-responsive" src="./img/carrettini/retro.jpg" alt="">
+
+									</div>
+									<!-- /Work -->
+
+									<div class="col-md-6 col-xs-6 work">
+										<p class="black-text-splatch">CARRETTINO RETRO'<p
+												class="black-text-splatch-small"></p>
+										</p>
+
+									</div>
+
+
+									<div class="col-md-6 col-xs-6 work">
+										<div class="col-md-3">
+											<img class="img-responsive" src="./img/icons/money.png" alt="">
+										</div>
+										<div class="col-md-6">
+											<p class="black-text-splatch-small">PREZZO NOLEGGIO: <br>€300 CON OPERATORE
+												CHE
+												CONSEGNA E RITIRA (NOLEGGIO 3H) </p>
+										</div>
+									</div>
+
+								</div>
+
+								
+
+
+								<div class="row" style="border-bottom: 10px dotted blue;">
+
+									<!-- Work -->
+									<div class="col-md-6 col-xs-6 work">
+										<img class="img-responsive" src="./img/carrettini/vintage1.png" alt="">
+
+									</div>
+									<!-- /Work -->
+
+									<div class="col-md-6 col-xs-6 work">
+										<p class="black-text-splatch">CARRETTINO SHABBY<p
+												class="black-text-splatch-small"></p>
+										</p>
+
+									</div>
+
+
+									<div class="col-md-6 col-xs-6 work">
+										<div class="col-md-3">
+											<img class="img-responsive" src="./img/icons/money.png" alt="">
+										</div>
+										<div class="col-md-6">
+											<p class="black-text-splatch-small">PREZZO NOLEGGIO: <br>€300 CON OPERATORE
+												CHE
+												CONSEGNA E RITIRA (NOLEGGIO 3H) </p>
+										</div>
+									</div>
+
+								</div>
+
+								
+
+							</div>
+							
+
+							
+						</div>
+
+
+					</div>
+
+				</main>
+				<!-- /Main -->
+
+
+				<!-- Aside -->
+				<aside id="aside" class="col-md-3">
+
+
+					<!-- Tags -->
+					<div class="widget">
+						<h3 class="title">Tags</h3>
+						<div class="widget-tags">
+							<a href="#">Animazione</a>
+							<a href="#">Bambini</a>
+							<a href="#">Adulti</a>
+							<a href="#">Spettacoli</a>
+							<a href="#">Cabaret</a>
+							<a href="#">DJ - Music</a>
+						</div>
+					</div>
+					<!-- /Tags -->
+
+				</aside>
+				<!-- /Aside -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Blog -->
+
+	<!-- Footer -->
+    <footer id="footer" class="sm-padding bg-dark">
+
+        <!-- Container -->
+        <div class="container">
+
+            <!-- Row -->
+            <div class="row">
+
+                <div class="col-md-12">
+
+                    <!-- footer logo -->
+                    <div class="footer-logo">
+                        <a href="./index"><img src="./img/loghi/logo-alt-noarchi.png" alt="logo"></a>
+                    </div>
+                    <!-- /footer logo -->
+
+                    <!-- footer follow -->
+                    <ul class="footer-follow">
+                        <li><a href="https://www.facebook.com/pafassociazione/"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://instagram.com/ka_moe1?igshid=15cjja2pg0rj5"><i
+                                    class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UC0f0pBuFypqGnwrLMCz-AnQ"><i
+                                    class="fa fa-youtube"></i></a></li>
+                    </ul>
+                    <!-- /footer follow -->
+
+                    <div class="footer-copyright">
+                        
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- /Row -->
+
+        </div>
+        <!-- /Container -->
+
+    </footer>
+    <!-- /Footer -->
+
+	<!-- Back to top -->
+	<div id="back-to-top"></div>
+	<!-- /Back to top -->
+
+	<!-- Preloader -->
+	<div id="preloader">
+		<div class="preloader">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</div>
+	<!-- /Preloader -->
+
+	<!-- jQuery Plugins -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript"
+		src="https://cdn.jsdelivr.net/npm/cookie-bar/cookiebar-latest.min.js?forceLang=it&tracking=1&thirdparty=1&always=1&noGeoIp=1&scrolling=1&hideDetailsBtn=1"></script>
+
+	
+</body>
+
+</html>
